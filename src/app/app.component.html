@@ -2,7 +2,9 @@
 <div style="text-align:center">
   <h1> Welcome to {{ title }}!  </h1>
  </div>
-
+ <button (click)="requestPermission()">
+  Hey this is a chat app, you should let us send you notifications for these reasons!
+</button>
 	<div class="content-container">
  		<router-outlet></router-outlet>
 	</div>
